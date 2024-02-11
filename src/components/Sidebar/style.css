@@ -1,0 +1,10 @@
+.sub-menu {
+}
+
+.sub-menu-title {
+    @apply uppercase text-white text-opacity-55 font-semibold;
+}
+
+.debug {
+    color: #25252d;
+}

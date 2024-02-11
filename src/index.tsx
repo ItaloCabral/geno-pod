@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './pages/App/';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -9,7 +9,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <div className="bg-gradient-to-r from-zinc-950 to-zinc-900 h-screen w-screen grid grid-cols-main text-white">
+      <App />
+    </div>
   </React.StrictMode>
 );
 
